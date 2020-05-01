@@ -1,0 +1,27 @@
+{
+  "name": "dynamo-readings-create",
+  "version": "1.0.0",
+  "description": "Create Reading Timeseries tables ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node local.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andengineering/wellnessconnected-lambdas.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "timeseries",
+    "readings"
+  ],
+  "author": "Charlie Federspiel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/andengineering/wellnessconnected-lambdas/issues"
+  },
+  "homepage": "https://github.com/andengineering/wellnessconnected-lambdas#readme",
+  "dependencies": {
+    "aws-sdk": "^2.656.0"
+  }
+}
